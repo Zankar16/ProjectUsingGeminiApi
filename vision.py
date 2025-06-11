@@ -5,7 +5,7 @@ import textwrap
 import google.generativeai as genai
 from PIL import Image
 
-genai.configure(api_key='AIzaSyCvkJXn0ynov8qyxLyIxDu1nmBk95dBrrY')
+genai.configure(api_key='*********************')
 model=genai.GenerativeModel("gemini-pro-vision")
 def get_gemini_respond(input,image):
     if input!="":
