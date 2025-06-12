@@ -11,7 +11,7 @@ os.environ.pop("http_proxy", None)
 os.environ.pop("https_proxy", None)
 
 # --------- Gemini API setup ---------
-genai.configure(api_key="AIzaSyBBFJV4bRLQTXAVja80sZZ8KXWGzHa-yiE")
+genai.configure(api_key="***********************************")
 model = genai.GenerativeModel('models/gemini-1.5-flash')
 
 # --------- Vosk speech recognition ---------
